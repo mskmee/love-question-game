@@ -1,0 +1,25 @@
+.title {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.card {
+  font-size: 2rem;
+  margin: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btns {
+  display: flex;
+  gap: 2rem;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

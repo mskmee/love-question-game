@@ -1,0 +1,28 @@
+.button {
+  min-height: 4rem;
+  padding: 0 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #8bf5fa;
+  color: #205e61;
+  font-size: 2.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:disabled {
+  background-color: grey;
+}
+
+.button:disabled.button:hover {
+  transform: scale(1);
+  cursor: default;
+}
+
+.button:active:hover {
+  background-color: ;
+}
+
+.button:active {
+  transform: scale(1);
+}
